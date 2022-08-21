@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(120deg, #219EBC, #023047);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    box-shadow: 0px 8px 10px #00000050; /*2 ultimos numeros eh intensidade*/
+    border-radius: 5px; /*arredondar*/
+}
+
+.time-wrapper{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #00000060;
+    box-shadow: 5px 5px 15px #00000070;
+    border-radius: 5px;
+    border: 7px;
+    letter-spacing: 3px;
+}
+
+.time-wrapper span{
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+.time-wrapper span.time{
+    font-size: 12px;
+}

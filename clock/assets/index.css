@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%22);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background: linear-gradient(120deg, #219ebc, #023047);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    box-shadow: 0px 8px 10px #00000060;
+    border-radius: 5px;
+}
+
+.link-clock {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.link-clock:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.link-clock:visited {
+    color: white;
+}
